@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEURORED - Tu red de apoyo neurodivergente</title>
+</head><link rel="stylesheet" href="styles.css">
+<body>
+    <!-- NAVEGACIÓN -->
+    <nav>
+        <h1>🧠 NEURORED</h1>
+        <ul>
+            <li><a href="#inicio">🏠 Inicio</a></li>
+            <li><a href="#buscador">🔍 Buscador</a></li>
+            <li><a href="#ayuda">📚 Centro de Ayuda</a></li>
+            <li><a href="#accesibilidad">♿ Accesibilidad</a></li>
+        </ul>
+    </nav>
+
+    <!-- SECCIÓN 1: INICIO -->
+    <section id="inicio">
+        <h1>🏠 Bienvenido a NEURORED</h1>
+        <h2>Tu red de apoyo neurodivergente</h2>
+        
+        <p><strong>¿Eres una persona neurodivergente buscando apoyo profesional?</strong></p>
+        <p>NEURORED es tu plataforma inclusiva que te conecta directamente con profesionales especializados en autismo, TDAH, dislexia y otras condiciones. Aquí encontrarás información clara, profesionales capacitados y un proceso simple para acceder a los tratamientos que necesitas.</p>
+        
+        <p><strong>🎯 BOTÓN PRINCIPAL:</strong></p>
+        <p><a href="#buscador"><button><big>🔍 ENCONTRÁ TU PRESTADOR</big></button></a></p>
+        
+        <h3>📋 Accesos Rápidos:</h3>
+        <ul>
+            <li><a href="#como-funciona">❓ ¿Cómo funciona?</a></li>
+            <li><a href="#preguntas-frecuentes">🙋 Preguntas frecuentes</a></li>
+            <li><a href="#accesibilidad">♿ Accesibilidad</a></li>
+        </ul>
+
+        <div id="como-funciona">
+            <h3>❓ ¿Cómo funciona NEURORED?</h3>
+            <ol>
+                <li><strong>🔍 Buscá:</strong> Usá nuestros filtros para encontrar profesionales que se adapten a tus necesidades</li>
+                <li><strong>👤 Conocé:</strong> Revisá el perfil detallado de cada profesional</li>
+                <li><strong>📋 Tramitá:</strong> Seguí nuestra guía paso a paso para iniciar el tratamiento</li>
+                <li><strong>🤝 Conectá:</strong> Empezá tu proceso de apoyo con el profesional elegido</li>
+            </ol>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- SECCIÓN 2: BUSCADOR DE PROFESIONALES -->
+    <section id="buscador">
+        <h1>🔍 Buscador de Profesionales</h1>
+        
+        <h2>🎛️ Filtros de Búsqueda</h2>
+        <form>
+            <h3>🏥 Especialidad:</h3>
+            <input type="checkbox" id="psicologo" name="especialidad" value="psicologo">
+            <label for="psicologo">Psicólogo/a</label><br>
+            <input type="checkbox" id="psiquiatra" name="especialidad" value="psiquiatra">
+            <label for="psiquiatra">Psiquiatra</label><br>
+            <input type="checkbox" id="terapista-ocupacional" name="especialidad" value="terapista-ocupacional">
+            <label for="terapista-ocupacional">Terapista Ocupacional</label><br>
+            <input type="checkbox" id="fonoaudiologo" name="especialidad" value="fonoaudiologo">
+            <label for="fonoaudiologo">Fonoaudiólogo/a</label><br>
+            <input type="checkbox" id="neurologo" name="especialidad" value="neurologo">
+            <label for="neurologo">Neurólogo/a</label><br>
+
+            <h3>🏠 Modalidad de Atención:</h3>
+            <input type="radio" id="presencial" name="modalidad" value="presencial">
+            <label for="presencial">Presencial</label><br>
+            <input type="radio" id="virtual" name="modalidad" value="virtual">
+            <label for="virtual">Virtual</label><br>
+            <input type="radio" id="ambas" name="modalidad" value="ambas">
+            <label for="ambas">Ambas modalidades</label><br>
+
+            <h3>👥 Tipo de Sesión:</h3>
+            <input type="checkbox" id="individual" name="tipo-sesion" value="individual">
+            <label for="individual">Individual</label><br>
+            <input type="checkbox" id="grupal" name="tipo-sesion" value="grupal">
+            <label for="grupal">Grupal</label><br>
+            <input type="checkbox" id="familiar" name="tipo-sesion" value="familiar">
+            <label for="familiar">Familiar</label><br>
+
+            <h3>💬 Estilo de Comunicación:</h3>
+            <input type="checkbox" id="lenguaje-claro" name="comunicacion" value="lenguaje-claro">
+            <label for="lenguaje-claro">Lenguaje claro y simple</label><br>
+            <input type="checkbox" id="pictogramas" name="comunicacion" value="pictogramas">
+            <label for="pictogramas">Uso de pictogramas</label><br>
+            <input type="checkbox" id="apoyos-visuales" name="comunicacion" value="apoyos-visuales">
+            <label for="apoyos-visuales">Apoyos visuales</label><br>
+            <input type="checkbox" id="comunicacion-escrita" name="comunicacion" value="comunicacion-escrita">
+            <label for="comunicacion-escrita">Comunicación escrita disponible</label><br>
+
+            <h3>📍 Zona:</h3>
+            <select name="zona">
+                <option value="">Seleccionar zona</option>
+                <option value="caba-centro">CABA - Centro</option>
+                <option value="caba-norte">CABA - Norte</option>
+                <option value="caba-sur">CABA - Sur</option>
+                <option value="zona-norte">Zona Norte (GBA)</option>
+                <option value="zona-oeste">Zona Oeste (GBA)</option>
+                <option value="zona-sur">Zona Sur (GBA)</option>
+            </select>
+
+            <h3>🕐 Horarios Disponibles:</h3>
+            <input type="checkbox" id="mañana" name="horarios" value="mañana">
+            <label for="mañana">Mañana (8-12hs)</label><br>
+            <input type="checkbox" id="tarde" name="horarios" value="tarde">
+            <label for="tarde">Tarde (12-18hs)</label><br>
+            <input type="checkbox" id="noche" name="horarios" value="noche">
+            <label for="noche">Noche (18-21hs)</label><br>
+
+            <br>
+            <button type="submit">🔍 BUSCAR PROFESIONALES</button>
+        </form>
+
+        <h2>👨‍⚕️ Resultados de Búsqueda</h2>
+        
+        <!-- TARJETA PROFESIONAL 1 -->
+        <div>
+            <h3>👩‍⚕️ Dra. María González</h3>
+            <p><strong>📋 Matrícula:</strong> MP 12345</p>
+            <p><strong>🏥 Especialidad:</strong> Psicóloga especializada en TEA y TDAH</p>
+            <p><strong>💼 Estilo de trabajo:</strong> Terapia cognitivo-conductual con enfoque sensorial. Uso de apoyos visuales y comunicación clara.</p>
+            <p><strong>📍 Modalidad:</strong> Presencial y virtual</p>
+            <p><strong>📞 Contacto:</strong> Tel: 11-1234-5678 | Email: mgonzalez@email.com</p>
+            <p><strong>⭐ Valoración:</strong> 4.8/5 (23 opiniones)</p>
+            <p><a href="#perfil-maria"><button>👀 ME INTERESA - Ver perfil completo</button></a></p>
+        </div>
+
+        <hr>
+
+        <!-- TARJETA PROFESIONAL 2 -->
+        <div>
+            <h3>👨‍⚕️ Dr. Carlos Mendez</h3>
+            <p><strong>📋 Matrícula:</strong> MN 67890</p>
+            <p><strong>🏥 Especialidad:</strong> Terapista Ocupacional en integración sensorial</p>
+            <p><strong>💼 Estilo de trabajo:</strong> Terapia lúdica con herramientas sensoriales. Comunicación mediante pictogramas y rutinas estructuradas.</p>
+            <p><strong>📍 Modalidad:</strong> Presencial únicamente</p>
+            <p><strong>📞 Contacto:</strong> Tel: 11-9876-5432 | Email: cmendez@email.com</p>
+            <p><strong>⭐ Valoración:</strong> 4.9/5 (31 opiniones)</p>
+            <p><a href="#perfil-carlos"><button>👀 ME INTERESA - Ver perfil completo</button></a></p>
+        </div>
+
+        <hr>
+
+        <!-- TARJETA PROFESIONAL 3 -->
+        <div>
+            <h3>👩‍⚕️ Lic. Ana Rodríguez</h3>
+            <p><strong>📋 Matrícula:</strong> MP 11223</p>
+            <p><strong>🏥 Especialidad:</strong> Fonoaudióloga especializada en dislexia y TEL</p>
+            <p><strong>💼 Estilo de trabajo:</strong> Método multisensorial con apoyo tecnológico. Sesiones adaptadas al ritmo individual.</p>
+            <p><strong>📍 Modalidad:</strong> Virtual y presencial</p>
+            <p><strong>📞 Contacto:</strong> Tel: 11-5555-4444 | Email: arodriguez@email.com</p>
+            <p><strong>⭐ Valoración:</strong> 4.7/5 (18 opiniones)</p>
+            <p><a href="#perfil-ana"><button>👀 ME INTERESA - Ver perfil completo</button></a></p>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- SECCIÓN 3: PERFILES DE PROFESIONALES -->
+    <section id="perfil-maria">
+        <h1>👩‍⚕️ Perfil Profesional - Dra. María González</h1>
+        
+        <h2>🔍 ¿Cómo son las sesiones?</h2>
+        <ul>
+            <li><strong>⏰ Duración:</strong> 50 minutos por sesión</li>
+            <li><strong>📅 Frecuencia:</strong> Semanal o quincenal según necesidades</li>
+            <li><strong>🏠 Ambiente:</strong> Espacio tranquilo con iluminación suave y sin ruidos molestos</li>
+            <li><strong>📋 Estructura:</strong> Agenda visual clara con actividades planificadas</li>
+            <li><strong>⏸️ Pausas:</strong> Se respetan las necesidades de descanso durante la sesión</li>
+        </ul>
+
+        <h2>🛠️ ¿Qué herramientas usa?</h2>
+        <ul>
+            <li>📊 <strong>Apoyos visuales:</strong> Tarjetas, diagramas y esquemas</li>
+            <li>🎯 <strong>Pictogramas:</strong> Para facilitar la comunicación</li>
+            <li>📱 <strong>Aplicaciones:</strong> Herramientas digitales adaptadas</li>
+            <li>🎮 <strong>Técnicas lúdicas:</strong> Juegos terapéuticos estructurados</li>
+            <li>📝 <strong>Material escrito:</strong> Resúmenes y guías para llevar a casa</li>
+        </ul>
+
+        <h2>📄 ¿Qué papeles se necesitan?</h2>
+        <ol>
+            <li><strong>📋 Orden médica:</strong> Derivación de médico clínico, neurólogo o psiquiatra</li>
+            <li><strong>🆔 Documentación personal:</strong> DNI del paciente</li>
+            <li><strong>🏥 Carnet de obra social:</strong> Vigente y actualizado</li>
+            <li><strong>📊 Informes previos:</strong> Si los tenés (estudios, evaluaciones anteriores)</li>
+            <li><strong>📝 Historia clínica:</strong> Resumen de tratamientos previos (opcional)</li>
+        </ol>
+
+        <h2>🚀 ¿Cómo empezar el trámite?</h2>
+        <ol>
+            <li><strong>📞 Contacto inicial:</strong> Llamá o enviá un email</li>
+            <li><strong>📅 Primera consulta:</strong> Agendar entrevista inicial (sin costo)</li>
+            <li><strong>📋 Evaluación:</strong> Completar formularios de ingreso</li>
+            <li><strong>💰 Autorización:</strong> Gestionar cobertura con obra social</li>
+            <li><strong>🎯 Inicio:</strong> Comenzar tratamiento personalizado</li>
+        </ol>
+
+        <p><strong>📞 Contacto directo:</strong></p>
+        <p>Tel: 11-1234-5678 | Email: mgonzalez@email.com</p>
+        <p>Horarios de consulta: Lunes a viernes 9-18hs</p>
+        
+        <p><a href="#tramite"><button>📋 IR A TRÁMITE PASO A PASO</button></a></p>
+    </section>
+
+    <hr>
+
+    <!-- SECCIÓN 4: TRÁMITE PASO A PASO -->
+    <section id="tramite">
+        <h1>📋 Trámite Paso a Paso</h1>
+        
+        <h2>🩺 ¿Qué pedirle al médico?</h2>
+        <p><strong>Elementos importantes para solicitar en la orden médica:</strong></p>
+        <ul>
+            <li>📝 <strong>Diagnóstico claro:</strong> CIE-10 específico si está disponible</li>
+            <li>🎯 <strong>Tipo de tratamiento:</strong> Psicoterapia, terapia ocupacional, fonoaudiología</li>
+            <li>📅 <strong>Frecuencia sugerida:</strong> Semanal, quincenal, etc.</li>
+            <li>⏰ <strong>Duración estimada:</strong> Si el médico puede estimarla</li>
+            <li>🔍 <strong>Objetivos específicos:</strong> Qué se busca trabajar</li>
+        </ul>
+
+        <h3>💬 Frases útiles para pedirle al médico:</h3>
+        <blockquote>
+            <p><em>"Doctor/a, necesito una orden para tratamiento de [mi condición]. ¿Puede incluir el diagnóstico específico y el tipo de terapia que recomienda?"</em></p>
+            <p><em>"¿Puede especificar en la orden si recomienda sesiones semanales o quincenales?"</em></p>
+            <p><em>"Mi obra social es [nombre]. ¿Hay algún código específico que deba incluir?"</em></p>
+        </blockquote>
+
+        <h2>📄 Formularios Descargables</h2>
+        <ul>
+            <li>📋 <a href="#">Formulario de primera consulta - DESCARGAR</a></li>
+            <li>🏥 <a href="#">Solicitud de autorización obra social - DESCARGAR</a></li>
+            <li>📊 <a href="#">Cuestionario de evaluación inicial - DESCARGAR</a></li>
+            <li>📝 <a href="#">Consentimiento informado - DESCARGAR</a></li>
+            <li>👨‍👩‍👧‍👦 <a href="#">Formulario de contacto de emergencia - DESCARGAR</a></li>
+        </ul>
+
+        <h2>📧 ¿Cómo enviar la documentación?</h2>
+        
+        <h3>📨 Opción 1: Email</h3>
+        <ul>
+            <li>✉️ Enviá todo a: <strong>tramites@neurored.org.ar</strong></li>
+            <li>📎 Archivos en PDF (máximo 5MB por archivo)</li>
+            <li>📝 Asunto: "Nueva solicitud - [Tu nombre]"</li>
+            <li>📋 Incluí en el email: nombre completo, DNI, obra social y profesional elegido</li>
+        </ul>
+
+        <h3>📱 Opción 2: WhatsApp</h3>
+        <ul>
+            <li>📲 Número: +54 9 11 1234-5678</li>
+            <li>🕐 Horario: Lunes a viernes 9-17hs</li>
+            <li>📷 Podés mandar fotos de los documentos</li>
+        </ul>
+
+        <h3>🏢 Opción 3: Presencial</h3>
+        <ul>
+            <li>📍 Dirección: Av. Corrientes 1234, CABA</li>
+            <li>🕘 Horario: Lunes a viernes 10-16hs</li>
+            <li>⚠️ <strong>Llevá original + 2 copias de cada documento</strong></li>
+        </ul>
+
+        <h2>⏰ Plazos Estimados de Respuesta</h2>
+        <table border="1">
+            <tr>
+                <th>📋 Paso</th>
+                <th>⏱️ Tiempo estimado</th>
+                <th>📝 Qué pasa</th>
+            </tr>
+            <tr>
+                <td>Recepción de documentos</td>
+                <td>24-48 horas</td>
+                <td>Confirmación por email/SMS</td>
+            </tr>
+            <tr>
+                <td>Revisión de documentación</td>
+                <td>2-3 días hábiles</td>
+                <td>Verificación de completitud</td>
+            </tr>
+            <tr>
+                <td>Gestión con obra social</td>
+                <td>7-10 días hábiles</td>
+                <td>Solicitud de autorización</td>
+            </tr>
+            <tr>
+                <td>Respuesta de obra social</td>
+                <td>10-15 días hábiles</td>
+                <td>Aprobación o solicitud de más info</td>
+            </tr>
+            <tr>
+                <td>Coordinación de primera cita</td>
+                <td>2-3 días hábiles</td>
+                <td>Contacto para agendar</td>
+            </tr>
+        </table>
+
+        <h2>🤖 Asistencia Guiada</h2>
+        <p><strong>¿Necesitás ayuda durante el proceso?</strong></p>
+        <ul>
+            <li>💬 <strong>Chat en vivo:</strong> Disponible en esta página (esquina inferior derecha)</li>
+            <li>📞 <strong>Línea directa:</strong> 0800-NEURO-RED (0800-638-7673)</li>
+            <li>📧 <strong>Email de consultas:</strong> ayuda@neurored.org.ar</li>
+            <li>🎥 <strong>Videollamada:</strong> Agendar cita de 15 min para explicación personalizada</li>
+        </ul>
+
+        <h3>🔄 Estado de tu trámite</h3>
+        <p><strong>Consultá el estado ingresando tu número de trámite:</strong></p>
+        <form>
+            <label for="numero-tramite">📋 Número de trámite:</label>
+            <input type="text" id="numero-tramite" name="numero-tramite" placeholder="NR-2024-001234">
+            <button type="submit">🔍 CONSULTAR ESTADO</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- SECCIÓN 5: CENTRO DE AYUDA -->
+    <section id="ayuda">
+        <h1>📚 Centro de Ayuda</h1>
+        
+        <h2 id="preguntas-frecuentes">🙋 Preguntas Frecuentes</h2>
+        
+        <h3>❓ ¿NEURORED tiene costo?</h3>
+        <p><strong>Respuesta:</strong> NEURORED es gratuito. Es una plataforma de conexión que no cobra por sus servicios. Los honorarios profesionales se abonan directamente al prestador según tu obra social.</p>
+
+        <h3>❓ ¿Qué obras sociales están incluidas?</h3>
+        <p><strong>Respuesta:</strong> Trabajamos con la mayoría de obras sociales y prepagas. Incluye: OSDE, Swiss Medical, Galeno, IOMA, PAMI, obras sociales sindicales, y muchas más. Consultá por la tuya específicamente.</p>
+
+        <h3>❓ ¿Puedo cambiar de profesional si no me siento cómodo/a?</h3>
+        <p><strong>Respuesta:</strong> ¡Por supuesto! Tu bienestar es lo más importante. Podés cambiar de profesional las veces que necesites hasta encontrar el indicado para vos.</p>
+
+        <h3>❓ ¿Ofrecen tratamientos para adultos?</h3>
+        <p><strong>Respuesta:</strong> Sí, NEURORED está especializada en conectar adultos neurodivergentes con profesionales capacitados para trabajar con población adulta.</p>
+
+        <h3>❓ ¿Qué pasa si no tengo diagnóstico formal?</h3>
+        <p><strong>Respuesta:</strong> No es problema. Muchos de nuestros profesionales pueden ayudarte con el proceso de evaluación y diagnóstico. Comenzá con una consulta inicial.</p>
+
+        <h3>❓ ¿Las sesiones virtuales son igual de efectivas?</h3>
+        <p><strong>Respuesta:</strong> Para muchas personas, las sesiones virtuales son igual de efectivas y más cómodas. Algunos profesionales combinan ambas modalidades según las necesidades.</p>
+
+        <h2>📖 Glosario en Lenguaje Claro</h2>
+        
+        <h3>🧠 Términos sobre Neurodivergencia</h3>
+        <ul>
+            <li><strong>Neurodivergente:</strong> Persona cuyo cerebro funciona de manera diferente a lo típico. Incluye autismo, TDAH, dislexia, entre otros.</li>
+            <li><strong>TEA (Trastorno del Espectro Autista):</strong> Condición neurológica que afecta la comunicación, interacción social y comportamiento.</li>
+            <li><strong>TDAH:</strong> Trastorno de Déficit de Atención e Hiperactividad. Afecta la atención, el control de impulsos y el nivel de actividad.</li>
+            <li><strong>Dislexia:</strong> Dificultad específica para aprender a leer y escribir en personas con inteligencia normal.</li>
+            <li><strong>Estimulación sensorial:</strong> Respuesta intensa a sonidos, luces, texturas o sabores.</li>
+            <li><strong>Masking (enmascaramiento):</strong> Ocultar características neurodivergentes para encajar socialmente.</li>
+        </ul>
+
+        <h3>🏥 Términos Médicos y de Tratamiento</h3>
+        <ul>
+            <li><strong>Terapia cognitivo-conductual:</strong> Tipo de psicoterapia que ayuda a cambiar pensamientos y comportamientos.</li>
+            <li><strong>Terapia ocupacional:</strong> Ayuda a desarrollar habilidades para las actividades diarias.</li>
+            <li><strong>Integración sensorial:</strong> Terapia que ayuda al cerebro a procesar mejor la información sensorial.</li>
+            <li><strong>Pictogramas:</strong> Dibujos o símbolos que representan palabras o ideas.</li>
+            <li><strong>Apoyos visuales:</strong> Herramientas como calendarios, horarios o diagramas que ayudan a organizar información.</li>
+            <li><strong>Sesión individual:</strong> Terapia uno a uno con el profesional.</li>
+            <li><strong>Sesión grupal:</strong> Terapia con otras personas que comparten experiencias similares.</li>
+        </ul>
+
+        <h3>📋 Términos Administrativos</h3>
+        <ul>
+            <li><strong>Orden médica:</strong> Papel que firma el médico pidiendo un tratamiento específico.</li>
+            <li><strong>Matrícula profesional:</strong> Número que identifica que el profesional está habilitado para trabajar.</li>
+            <li><strong>Autorización de obra social:</strong> Permiso de tu obra social para cubrir el tratamiento.</li>
+            <li><strong>Copago:</strong> Dinero que podés tener que pagar además de lo que cubre la obra social.</li>
+            <li><strong>Nomenclador:</strong> Lista de precios que maneja tu obra social.</li>
+        </ul>
+
+        <h2>🎯 Recursos Según Diagnóstico</h2>
+        
+        <h3>🔵 Para personas con TDAH</h3>
+        <ul>
+            <li>📱 <strong>Apps recomendadas:</strong> Forest (concentración), Todoist (organización), Headspace (mindfulness)</li>
+            <li>📚 <strong>Libros útiles:</strong> "Tu cerebro TDAH" de varios autores, guías de organización</li>
+            <li>🎯 <strong>Estrategias:</strong> Técnica Pomodoro, listas visuales, recordatorios</li>
+            <li>👥 <strong>Grupos de apoyo:</strong> Comunidades online y presenciales</li>
+            <li>🏥 <strong>Especialistas recomendados:</strong> Psicólogos cognitivo-conductuales, psiquiatras especializados</li>
+        </ul>
+
+        <h3>🟣 Para personas con TEA</h3>
+        <ul>
+            <li>📊 <strong>Herramientas:</strong> Agendas visuales, aplicaciones de comunicación, pictogramas</li>
+            <li>🌟 <strong>Estrategias sensoriales:</strong> Espacios tranquilos, auriculares con cancelación de ruido</li>
+            <li>💼 <strong>Habilidades sociales:</strong> Scripts de conversación, práctica de situaciones</li>
+            <li>🏢 <strong>Apoyo laboral:</strong> Adaptaciones en el trabajo, comunicación con RRHH</li>
+            <li>🏥 <strong>Especialistas recomendados:</strong> Psicólogos especializados en TEA, terapistas ocupacionales</li>
+        </ul>
+
+        <h3>🟠 Para personas con Dislexia</h3>
+        <ul>
+            <li>📖 <strong>Herramientas de lectura:</strong> Lectores de texto, fuentes especiales, software especializado</li>
+            <li>🎧 <strong>Audiolibros:</strong> Plataformas recomendadas y técnicas de uso</li>
+            <li>✍️ <strong>Escritura:</strong> Correctores avanzados, mapas mentales, grabadoras</li>
+            <li>🎓 <strong>Estudio:</strong> Técnicas multisensoriales, resúmenes visuales</li>
+            <li>🏥 <strong>Especialistas recomendados:</strong> Fonoaudiólogos, psicopedagogos, terapistas del lenguaje</li>
+        </ul>
+
+        <h2>👥 Comunidad y Foro</h2>
+        <p><strong>💬 Conectá con otras personas neurodivergentes</strong></p>
+        
+        <h3>🌟 Grupos de Apoyo Virtual</h3>
+        <ul>
+            <li><strong>📅 Reuniones semanales:</strong> Todos los miércoles 19hs por Zoom</li>
+            <li><strong>🎯 Grupos específicos:</strong> Por diagnóstico y por edad</li>
+            <li><strong>👥 Moderación profesional:</strong> Siempre hay un profesional presente</li>
+            <li><strong>🔒 Espacio seguro:</strong> Reglas claras de respeto y confidencialidad</li>
+        </ul>
+
+        <h3>💻 Foro Online</h3>
+        <ul>
+            <li><strong>🗣️ Intercambio de experiencias:</strong> Compartí y leé historias similares</li>
+            <li><strong>💡 Tips y estrategias:</strong> Consejos prácticos de la comunidad</li>
+            <li><strong>❓ Preguntas y respuestas:</strong> Consultá dudas con otros usuarios</li>
+            <li><strong>📢 Novedades:</strong> Información sobre nuevos profesionales y recursos</li>
+        </ul>
+
+        <p><strong>Para unirte a la comunidad:</strong></p>
+        <p>📧 Enviá un email
+<script src="script.js"></script>
