@@ -37,13 +37,13 @@ NEURORED ofrece una plataforma integral que simplifica y guía el proceso de ate
 
 🩺 Especialidades Disponibles
 
-Neurología
+- Neurología
 
-Psicología
+- Psicología
 
-Psiquiatría
+- Psiquiatría
 
-Fonoaudiología
+- Fonoaudiología
 
 👥 Público Objetivo
 
