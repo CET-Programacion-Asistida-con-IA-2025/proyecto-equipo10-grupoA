@@ -1,33 +1,21 @@
-## Grupo A - Equipo 10
-_Curso de Programación Asistida con IA - Chicas en Tecnología_ 🚀
+NEURORED 🧠 Porque cada forma de ser merece apoyo real. Te conectamos con quienes te entienden. 🎯 Acerca del Proyecto NEURORED es una plataforma web inclusiva diseñada para facilitar el acceso a tratamientos especializados para personas neurodivergentes. Conectamos personas con profesionales de la salud que comprenden sus necesidades específicas. 🚨 El Problema Los adultos neurodivergentes (autismo, TDAH, dislexia, etc.) enfrentan barreras para acceder a tratamientos:
 
-En este repositorio, se presenta el sitio web realizado durante el curso de programación frontend de CET.
+Información dispersa y difícil de encontrar Profesionales especializados no accesibles Procesos complejos y poco adaptados
 
-### 📄 Entregas
-**Entrega #1**: planificación de la solución y primeros resultados que obtengamos con la IA:
+💡 Nuestra Solución Una plataforma que simplifica el proceso de:
 
-📝 Edición del Archivo README incluyendo:
-- Definición de la problemática que eligieron abordar
-- Relación con los *Objetivos de Desarrollo Sostenible (ODS)*[^1]
-- Explicación de la solución tecnológica que están desarrollando
-> [!TIP]
-> Aprovechen los [formatos del README](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) para escribir diferentes secciones
+Encontrar profesionales especializados Conectar con el tratamiento adecuado Gestionar trámites de manera guiada
 
-🎨 Moodboard
+✨ Características Principales
 
-🧩 Archivos generados con asistencia de IA: ```index.html```, ```style.css```, ```script.js```
+🔍 Buscador inteligente con filtros por especialidad y modalidad 👨‍⚕️ Perfiles detallados de profesionales 📋 Gestión de trámites paso a paso 🌐 Interfaz accesible y fácil de usar 📚 Centro de ayuda con recursos útiles
 
+Especialidades Disponibles
 
-**Entrega #2 (Final)**: se esperan modificaciones en el código respecto a la entrega anterior, que pueden incluir nuevos archivos o extensión de los existentes (debe haber al menos un archivo de cada lenguaje visto - HTML, CSS y Javascript)
+Neurología Psicología Psiquiatría Fonoaudiología
 
-💡 Es una buena idea llevar un registro de lo que cambiamos. Por ejemplo
-```
-- Agregamos Bootstrap para el carrousel de imágenes...
-- Modificamos el texto de la sección de bienvenida...
-- Transformamos los textos sobre redes sociales en links...
-```
+👥 Para Quién
 
-Ahora si, ¡A programar! 🚀
+Personas neurodivergentes Familias y cuidadores Profesionales de la salud y educación
 
-
-[^1]: Los Objetivos de Desarrollo Sostenible u Objetivos Globales, también conocidos como Agenda 2030, son 17 objetivos globales interconectados diseñados para ser un «plan para lograr un futuro mejor y más sostenible para todos». Más información en https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/
+Conectando personas, construyendo puentes hacia la inclusión.
