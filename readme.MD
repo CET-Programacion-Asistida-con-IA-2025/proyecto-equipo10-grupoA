@@ -1,56 +1,40 @@
-🧠 NEURORED
-Porque cada forma de ser merece apoyo real.
-Te conectamos con quienes realmente te entienden.
-
+NEURORED 🧠
+Porque cada forma de ser merece apoyo real. Te conectamos con quienes te entienden.
 🎯 Acerca del Proyecto
-NEURORED es una plataforma web inclusiva creada para facilitar el acceso a tratamientos especializados para personas neurodivergentes. Nuestro objetivo es conectar a usuarios con profesionales de la salud que comprenden sus necesidades específicas, promoviendo la inclusión y la atención personalizada.
-
+NEURORED es una plataforma web inclusiva diseñada para facilitar el acceso a tratamientos especializados para personas neurodivergentes. Conectamos personas con profesionales de la salud que comprenden sus necesidades específicas.
 🚨 El Problema
-Las personas adultas neurodivergentes —como aquellas con autismo, TDAH, dislexia, entre otras condiciones— enfrentan múltiples barreras para acceder a servicios adecuados:
+Los adultos neurodivergentes (autismo, TDAH, dislexia, etc.) enfrentan barreras para acceder a tratamientos:
 
-- Información dispersa y poco clara.
-
-- Falta de acceso a profesionales especializados.
-
-- Procesos complejos, poco adaptados a sus realidades.
+Información dispersa y difícil de encontrar
+Profesionales especializados no accesibles
+Procesos complejos y poco adaptados
 
 💡 Nuestra Solución
-NEURORED ofrece una plataforma integral que simplifica y guía el proceso de atención especializada:
+Una plataforma que simplifica el proceso de:
 
-- Encuentra profesionales capacitados y empáticos.
+Encontrar profesionales especializados
+Conectar con el tratamiento adecuado
+Gestionar trámites de manera guiada
 
-- Conecta con el tratamiento adecuado según tus necesidades.
+✨ Características Principales
 
-- Gestiona trámites y solicitudes de manera clara y estructurada.
+🔍 Buscador inteligente con filtros por especialidad y modalidad
+👨‍⚕️ Perfiles detallados de profesionales
+📋 Gestión de trámites paso a paso
+🌐 Interfaz accesible y fácil de usar
+📚 Centro de ayuda con recursos útiles
 
-✨ Características Principales:
+Especialidades Disponibles
 
-🔍 Buscador inteligente: con filtros por especialidad, modalidad y ubicación.
+Neurología
+Psicología
+Psiquiatría
+Fonoaudiología
 
-👨‍⚕️ Perfiles detallados: experiencia, enfoque terapéutico y opiniones.
+👥 Para Quién
 
-📋 Gestión de trámites: pasos guiados y accesibles.
+Personas neurodivergentes
+Familias y cuidadores
+Profesionales de la salud y educación
 
-🌐 Interfaz accesible: diseño centrado en la usabilidad para todos.
-
-📚 Centro de ayuda: recursos educativos y guías prácticas.
-
-🩺 Especialidades Disponibles
-
-- Neurología
-
-- Psicología
-
-- Psiquiatría
-
-- Fonoaudiología
-
-👥 Público Objetivo
-
-- Personas neurodivergentes
-
-- Familias y cuidadores
-
-- Profesionales de la salud y educación
-
-- Conectando personas. Construyendo puentes hacia la inclusión.
+Conectando personas, construyendo puentes hacia la inclusión.
