@@ -39,14 +39,26 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    gap: 0.5rem; /* Espacio entre imagen y texto */
+    justify-content: flex-start;
+    gap: 0.5rem;
+    margin: 0; /* Importante: sin márgenes automáticos */
+}
+
+.logo .circular-image {
+    justify-content: flex-start;
+    height: 40px; /* Ajusta el tamaño */
+    width: 40px;
+    border-radius: 50%; /* Para que sea circular */
+    object-fit: cover;
 }
 
 .logo h1 {
+    justify-content: flex-start;
     font-size: 1.5rem;
     font-weight: bold;
-    color: #1c0c55; /* o el color que prefieras */
+    color: #1c0c55;
     margin: 0;
+    padding: 0;
 }
 
 
@@ -102,8 +114,6 @@ body {
     filter: blur(2px);
     z-index: -3;
 }
-
-
 
 .hero-content {
     max-width: 1200px;
@@ -316,7 +326,8 @@ body {
     margin-left: 4px;
 }
 
-.cta-bubble {
+.boton {
+    cursor: pointer;
     position: absolute;
     bottom: -30px;
     right: -50px;
@@ -328,7 +339,7 @@ body {
     color: #333;
     font-size: 1.1rem;
     animation: float 3s ease-in-out infinite;
-    z-index: 10; /* Asegurar que esté por encima del video */
+    z-index: 10; /* Asegurar que esté por encima del video*/
 }
 
 @keyframes float {
