@@ -208,7 +208,7 @@ body {
     position: absolute;
     bottom: -30px;
     right: -50px;
-    background: white;
+    background: linear-gradient(to left right, #e2e1de, #6d9bcb);
     padding: 1.5rem 2rem;
     border-radius: 50px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -419,3 +419,88 @@ body {
         left: 1rem;
     }
 }
+
+
+
+.sobre-nosotras {
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+}
+
+/* BLOQUE 1 - FONDO CON IMAGEN */
+.bloque-fondo-imagen .contenido {
+  max-width: 900px;
+  margin: 0 auto;
+  background: linear-gradient(to bottom right, #e2e1de, #6d9bcb);
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.bloque-fondo-imagen {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('https://i.pinimg.com/736x/93/d8/18/93d818666c6190b1174eb7810a007c30.jpg');
+  background-position: center;
+  padding: 4rem 2rem;
+  color: var(--color-white);
+}
+
+/* BLOQUE 2 - FONDO CELESTE GRADIENTE */
+.bloque-fondo-celeste {
+  background: linear-gradient(to bottom right, #e2e1de, #6d9bcb);
+  padding: 4rem 2rem;
+  color: var(--color-bg); 
+}
+
+.bloque-fondo-celeste .contenido {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.bloque-fondo-celeste h2 {
+  color: var(--color-bg);
+  margin-top: 2rem;
+}
+
+.bloque-fondo-celeste ul {
+  padding-left: 1.2rem;
+}
+
+.bloque-fondo-celeste li {
+  margin-bottom: 0.75rem;
+}
+
+footer.contacto {
+background: linear-gradient(to bottom right, #e2e1de, #6d9bcb);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centra horizontalmente */
+  justify-content: center; /* centra verticalmente si hay altura */
+  text-align: center; /* centra texto */
+  padding: 2rem;
+}
+
+footer.contacto form {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px; /* o el ancho que prefieras */
+}
+
+.fs-field {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.fs-input,
+.fs-textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+

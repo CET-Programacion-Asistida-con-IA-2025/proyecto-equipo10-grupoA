@@ -31,6 +31,7 @@ function setupScrollButton(selector) {
     });
 }
 
+
 // configuración de los botones
 setupScrollButton('#sobreNosotras');
 setupScrollButton('#centroDeAyuda');
