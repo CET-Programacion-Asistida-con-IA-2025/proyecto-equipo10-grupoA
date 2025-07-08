@@ -26,7 +26,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 4000px;
     margin: 0 auto;
 }
 
@@ -90,7 +90,7 @@ body {
     justify-content: center;
     overflow: hidden;
 }
-
+ 
 /* Video de fondo pantalla completa */
 .hero video {
     position: absolute;
@@ -204,21 +204,6 @@ body {
     margin-left: 4px;
 }
 
-.cta-bubble {
-    position: absolute;
-    bottom: -30px;
-    right: -50px;
-    background: linear-gradient(to left right, #e2e1de, #6d9bcb);
-    padding: 1.5rem 2rem;
-    border-radius: 50px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    font-weight: 600;
-    color: #333;
-    font-size: 1.1rem;
-    animation: float 3s ease-in-out infinite;
-    z-index: 10; /* Asegurar que esté por encima del video */
-}
-
 @keyframes float {
     0%, 100% { transform: translateY(0px); }
     50% { transform: translateY(-10px); }
@@ -327,16 +312,18 @@ body {
 }
 
 .boton {
+    background: linear-gradient(to bottom right, #e2e1de, #6d9bcb);
+    opacity: 0.9;
     cursor: pointer;
     position: absolute;
     bottom: -30px;
     right: -50px;
-    background: white;
     padding: 1.5rem 2rem;
+    border: none;
     border-radius: 50px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     font-weight: 600;
-    color: #333;
+    color: #ffffff;
     font-size: 1.1rem;
     animation: float 3s ease-in-out infinite;
     z-index: 10; /* Asegurar que esté por encima del video*/
@@ -504,3 +491,145 @@ footer.contacto form {
   box-sizing: border-box;
 }
 
+/**ASPECTO DE LOS FILTROS**/
+
+ .prestadores {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .prestadores h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        
+        .container {
+            display: flex;
+            gap: 30px;
+        }
+        
+        .filtros {
+            flex: 0 0 250px;
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            height: fit-content;
+        }
+        
+        .filtros h2 {
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .filtros h3 {
+            color: #555;
+            margin: 15px 0 10px 0;
+            font-size: 14px;
+        }
+        
+        .filtros label {
+            display: block;
+            margin: 8px 0;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        .filtros input[type="checkbox"] {
+            margin-right: 8px;
+        }
+        
+        .especialistas {
+            flex: 1;
+        }
+        
+        .especialista {
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .especialista.hidden {
+            display: none;
+        }
+        
+        .especialista:hover {
+            border-color: #007bff;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        }
+        
+        .especialista img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-right: 20px;
+            border: 3px solid #e0e0e0;
+        }
+        
+        .especialista p {
+            flex: 1;
+            margin: 0;
+        }
+        
+        .especialista h4 {
+            color: #333;
+            margin: 0 0 10px 0;
+            font-size: 18px;
+        }
+        
+        .especialista p {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .contactar {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            margin-left: 20px;
+        }
+        
+        .contactar:hover {
+            background-color: #0056b3;
+        }
+        
+        .no-results {
+            text-align: center;
+            color: #666;
+            font-size: 18px;
+            margin-top: 50px;
+            padding: 40px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+        }
+        
+        .reset-filters {
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            width: 100%;
+        }
+        
+        .reset-filters:hover {
+            background-color: #545b62;
+        }
